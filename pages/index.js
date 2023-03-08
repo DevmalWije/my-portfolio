@@ -241,7 +241,7 @@ export default function Home() {
                 interactive web and mobile apps.
               </p>
 
-              <div className="grid grid-rows-5 md:grid-rows-3 grid-flow-col gap-2 md:grid-cols-4">
+              <div className="grid grid-rows-6 md:grid-rows-3 grid-flow-col gap-2 md:grid-cols-4">
                 <div className="flex flex-col items-center bg-white  rounded-xl shadow-md p-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-400/10 hover:shadow-pastel_green duration-200 dark:bg-gray-500 dark:hover:bg-white">
                   <Image
                     src={flutter}
