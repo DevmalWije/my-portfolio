@@ -11,7 +11,7 @@ import Image from "next/image";
 import devImg from "../public/devPic.png";
 import programming from "../public/prog-3.svg";
 import design from "../public/design-2.svg";
-import appDev from "../public/app-dev.svg";
+import appDev from "../public/app-dev-2.svg";
 import { useState } from "react";
 import python from "../public/python.png";
 import java from "../public/java.png"; //<a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>
@@ -106,18 +106,18 @@ export default function Home() {
           <div className="text-center p-5 max-w-xl mx-auto bg-white/70  dark:bg-gray-600 dark:text-pastel_green dark:shadow-2xl  dark:shadow-teal-500 drop-shadow-lg rounded-3xl">
             <h2
               className="bg-white/70 rounded-3xl drop-shadow-lg text-purple-500 text-3xl 
-            py-2 font-medium font-oswald mb-3 max-w-md flex justify-center mx-auto md:text-5xl  dark:text-pastel_pink dark:bg-gray-500 animate-bounce"
+            py-2 font-medium font-Montserrat font-bold mb-3 max-w-md flex justify-center mx-auto md:text-5xl  dark:text-pastel_pink dark:bg-gray-500 animate-bounce"
             >
               Devmal Wijesinghe
             </h2>
             <h3
               className=" drop-shadow-lg text-gray-800 text-2xl
-             py-2 font-oswald
+             py-2 font-Montserrat font-medium
              md:text-3xl max-w-xl mx-auto mt-5"
             >
               Developer and UX/UI Designer
             </h3>
-            <p className="  text-m py-5 leading-7 p-4 text-gray-900 font-Montserrat md:text-xl max-w-xl mx-auto  dark:text-gray-300 ">
+            <p className="  text-m py-5 leading-7 p-4 text-gray-900 font-Montserrat md:text-lg max-w-xl mx-auto  dark:text-gray-300 ">
               As a dynamic and ambitious software engineering undergraduate, I
               possess a consistent drive to broaden my horizons and excel under
               pressure. My ability to quickly absorb and implement new knowledge
@@ -128,16 +128,19 @@ export default function Home() {
           {/* {*-socials-*} */}
           <div className=" text-gray-700 text-5xl flex-1 flex justify-center gap-14 py-3 m-10 cursor-pointer dark:text-white">
             <a href="https://github.com/DevmalWije" target={"_blank"}>
-            <AiFillGithub className="z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:fill-purple-700 duration-300" />
+              <AiFillGithub className="z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:fill-purple-700 duration-300" />
             </a>
             <a href="https://www.linkedin.com/in/devmalwije" target={"_blank"}>
-            <AiFillLinkedin className="z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:fill-blue-500 duration-300" />
+              <AiFillLinkedin className="z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:fill-blue-500 duration-300" />
             </a>
-            <a href="https://twitter.com/devmal_w_?t=aoaQwGxqjjJAFdceI7UHqg&s=09" target={"_blank"}>
-            <AiFillTwitterCircle className="z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:fill-blue-400 duration-300" />
+            <a
+              href="https://twitter.com/devmal_w_?t=aoaQwGxqjjJAFdceI7UHqg&s=09"
+              target={"_blank"}
+            >
+              <AiFillTwitterCircle className="z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:fill-blue-400 duration-300" />
             </a>
             <a href="https://www.behance.net/Devmal_Amantha" target={"_blank"}>
-            <AiFillBehanceCircle className="z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:fill-blue-700 duration-300" />
+              <AiFillBehanceCircle className="z-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:fill-blue-700 duration-300" />
             </a>
           </div>
 
@@ -150,12 +153,15 @@ export default function Home() {
         <section>
           {/* skills and passion descrip */}
           <div className="bg-white drop-shadow-lg rounded-3xl my-5 md:text-xl max-w-xl mx-auto dark:bg-gray-600 dark:text-pastel_green dark:shadow-2xl  dark:shadow-teal-500">
-            <h3 className="font-oswald text-center text-gray-800 text-3xl py-1 p-5">
+            <h3 className="font-Montserrat text-center font-medium text-gray-800 text-3xl py-1 p-5">
               Skills
             </h3>
-            <p className="  font-Montserrat text-md py-2 text-gray-800 p-5 md:text-xl dark:text-gray-300 ">
-              I've always been into the role of
-              <span className="text-teal-500">" Jack of all trades"</span>{" "}
+            <p className="font-Montserrat text-md py-2 text-gray-800 p-5 md:text-lg dark:text-gray-300 ">
+              I have always been into the role of
+              <span className="text-teal-500">
+                {" "}
+                &ldquo; Jack of all trades&rdquo;
+              </span>{" "}
               anything from
               <span className="text-teal-500">
                 {" "}
@@ -164,7 +170,7 @@ export default function Home() {
               , constantly looking into new and exciting ways to test my skills
               and learn new ones along the way
             </p>
-            <p className=" font-Montserrat text-md py-2 text-gray-800 p-5 md:text-xl dark:text-gray-300 ">
+            <p className=" font-Montserrat text-md py-2 text-gray-800 p-5 md:text-lg dark:text-gray-300 ">
               As of now, i primarily focus on
               <span className="text-teal-500">
                 {" "}
@@ -226,6 +232,7 @@ export default function Home() {
             {/* -------------------------------------------app and web------------------------------------------- */}
             <div className="text-center flex flex-col items-center shadow-lg p-5 rounded-xl my-5 dark:bg-gray-700  ">
               <Image src={appDev} width={100} height={100} />
+
               <h3 className="text-lg font-medium dark:text-pastel_green">
                 web and app development
               </h3>
