@@ -106,7 +106,7 @@ export default function Home() {
           <div className="text-center p-5 max-w-xl mx-auto bg-white/70  dark:bg-gray-600 dark:text-pastel_green dark:shadow-2xl  dark:shadow-teal-500 drop-shadow-lg rounded-3xl">
             <h2
               className="bg-white/70 rounded-3xl drop-shadow-lg text-purple-500 text-3xl 
-            py-2 font-medium font-Montserrat font-bold mb-3 max-w-md flex justify-center mx-auto md:text-5xl  dark:text-pastel_pink dark:bg-gray-500 animate-bounce"
+            py-2 font-medium font-Montserrat mb-3 max-w-md flex justify-center mx-auto md:text-4xl  dark:text-pastel_pink dark:bg-gray-500 animate-bounce"
             >
               Devmal Wijesinghe
             </h2>
@@ -241,7 +241,7 @@ export default function Home() {
                 interactive web and mobile apps.
               </p>
 
-              <div className="grid grid-rows-4 md:grid-rows-3 grid-flow-col gap-2 md:grid-cols-4">
+              <div className="grid grid-rows-5 md:grid-rows-3 grid-flow-col gap-2 md:grid-cols-4">
                 <div className="flex flex-col items-center bg-white  rounded-xl shadow-md p-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-400/10 hover:shadow-pastel_green duration-200 dark:bg-gray-500 dark:hover:bg-white">
                   <Image
                     src={flutter}
