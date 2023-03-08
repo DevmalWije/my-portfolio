@@ -185,7 +185,7 @@ export default function Home() {
           </div>
 
           {/*-------------------------------------------cards----------------------------------------------------------- */}
-          <div className="lg:flex gap-5 ">
+          <div className="lg:flex gap-5 select-none">
             {/* -------------------------------------------programming------------------------------------------- */}
             <div className="text-center flex flex-col items-center shadow-lg p-5 rounded-xl my-5 dark:bg-gray-700">
               <Image src={programming} width={100} height={100} />
