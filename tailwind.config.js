@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       animation: {
         blob: "blob 15s ease-in-out infinite",
+      
       },
       keyframes: {
         blob: {
@@ -22,6 +23,7 @@ module.exports = {
           "66%": { transform: "translate(-20px, 20px) scale(0.8)" },
           "100%": { transform: "translate(0px, 0px) scale(1)" },
         },
+  
       },
       boxShadow: {
         doublexl: "0 10px 50px -12px rgba(0, 235, 179, 194)",
