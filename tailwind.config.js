@@ -27,7 +27,7 @@ module.exports = {
         doublexl: "0 10px 50px -12px rgba(0, 235, 179, 194)",
       },
       colors: {
-        pastel_purple: "#9c9dd4",
+        pastel_purple: "#fe008d",
         pastel_green: "#bedfd4",
         pastel_pink: "#edb5c0",
         dark_mode: "#071e26",
@@ -38,7 +38,6 @@ module.exports = {
         backdrop_dark: "../public/backdrop-dark.png",
       },
       fontFamily: {
-        oswald: "Oswald",
         Montserrat: "Montserrat",
       },
     },
