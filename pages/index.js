@@ -68,7 +68,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
-      <main className="bg-white bg-cover px-10 md:px-40 lg:px-11 dark:bg-dark_mode">
+      <main className="bg-white bg-cover px-4 md:px-40 lg:px-11 dark:bg-dark_mode">
         <section className="min-h-screen select-none">
           <nav className="z-30 py-10 lg:-mb-24 flex justify-between select-none m-auto max-w-6xl">
             <h1 className="font-bold text-xl font-Montserrat text-gray-800 dark:text-white rounded-lg px-2 py-2">
@@ -586,14 +586,14 @@ export default function Home() {
         </section>
 
         <footer class=" bg-white rounded-t-xl shadow  dark:bg-gray-800">
-          <div class="w-full mx-auto container md:p-6 p-4 md:flex md:items-center md:justify-between">
-            <span class="text-sm text-teal-500 sm:text-center">
+          <div class="w-full mx-auto container md:p-6 p-4 flex flex-col md:flex-row md:items-center md:justify-between">
+            <span class="text-sm text-teal-500 text-center">
               <span className="font-bold text-xl font-Montserrat text-gray-800 dark:text-white rounded-lg">
                 <span className="text-teal-500">&lt;</span>ProjectsByDev
                 <span className="text-teal-500">&#47;&gt;</span>
               </span>
             </span>
-            <ul class="flex flex-wrap items-center text-teal-500 gap-5 text-3xl  mt-3 sm:mt-0">
+            <ul class="flex flex-wrap justify-center items-center text-teal-500 gap-5 text-3xl mt-5 md:mt-0">
               <li>
                 <a
                   href="https://www.linkedin.com/in/devmalwije"
