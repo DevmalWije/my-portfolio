@@ -136,7 +136,7 @@ export default function Home() {
 
           <div className="flex flex-col lg:flex-row justify-center lg:h-screen items-center gap-16">
             {/* hero section */}
-            <div className="text-center p-5 max-w-xl  bg-white/70  dark:bg-gray-800 dark:shadow-doublexl  dark:shadow-teal-500 drop-shadow-2xl rounded-3xl select-none">
+            <div className="text-center p-5 max-w-xl  bg-white/70  dark:bg-gray-800 dark:shadow-doublexl  dark:shadow-teal-500/30 drop-shadow-2xl rounded-3xl select-none">
               <h2
                 className="text-teal-500 text-3xl 
             py-2 font-medium font-Montserrat mb-3 max-w-md flex justify-center mx-auto md:text-4xl"
