@@ -107,12 +107,12 @@ export default function Home() {
             <div
               className="z-0 absolute top-0 w-36 h-36 md:w-72
             md:h-72 bg-teal-200  rounded-full -left-4  mix-blend-multiply  opacity-70
-            animate-blob animation-delay-2000 lg:left-10 blur-3xl"
+            md:animate-blob animation-delay-2000 lg:left-10 blur-3xl"
             ></div>
             <div
               className="z-0 absolute -bottom-96 left-5 md:top-16 right-10 w-60
               h-60 md:w-72
-            md:h-72 bg-teal-500 rounded-full  mix-blend-multiply  opacity-70  animate-blob blur-3xl"
+            md:h-72 bg-teal-500 rounded-full  mix-blend-multiply  opacity-70  md:animate-blob blur-3xl"
             ></div>
             <div
               className="z-0 scale-0 md:scale-75 lg:scale-110 absolute -top-48 -right-5 md:top-60 md:right-20 w-72
@@ -121,20 +121,20 @@ export default function Home() {
             <div
               className="z-0  absolute top-36 left-1 lg:right-52 w-60
               h-60 md:w-72
-            md:h-72 bg-rose-500/0 bg-teal-100 rounded-full  mix-blend-multiply  opacity-70  animate-blob blur-3xl"
+            md:h-72 bg-rose-500/0 bg-teal-100 rounded-full  mix-blend-multiply  opacity-70  md:animate-blob blur-3xl"
             ></div>
             <div
               className="z-0  absolute bottom-60 right-60 w-72
-            h-72 bg-blue-500/0 rounded-full mix-blend-multiply  opacity-70  animate-blob bg-teal-500 animation-delay-2000 blur-3xl"
+            h-72 bg-blue-500/0 rounded-full mix-blend-multiply  opacity-70  md:animate-blob bg-teal-500 animation-delay-2000 blur-3xl"
             ></div>
             <div
               className="z-0 bg-teal-200 absolute top-96 md:top-20 -left-20 md:right-96 w-60
               h-60 md:w-72
-            md:h-72   rounded-full  mix-blend-multiply  opacity-70  animate-blob  lg:left-10 lg:top-52 blur-3xl"
+            md:h-72   rounded-full  mix-blend-multiply  opacity-70  md:animate-blob  lg:left-10 lg:top-52 blur-3xl"
             ></div>
             <div
               className="z-0 absolute -bottom-80 -left-80 md:left-20 w-72
-            h-72 bg-pastel_green rounded-full  mix-blend-multiply  opacity-70  animate-blob animation-delay-4000  lg:left-52 blur-3xl"
+            h-72 bg-pastel_green rounded-full  mix-blend-multiply  opacity-70  md:animate-blob animation-delay-4000  lg:left-52 blur-3xl"
             ></div>
           </div>
 
@@ -198,12 +198,12 @@ export default function Home() {
             <div
               className="z-0 absolute -top-90 w-36 h-36 md:w-72
             md:h-72 bg-teal-200  rounded-full -left-4  mix-blend-multiply opacity-70
-             animation-delay-2000 lg:left-10  animate-blob blur-3xl"
+             animation-delay-2000 lg:left-10  md:animate-blob blur-3xl"
             ></div>
             <div
               className="z-0 absolute -top-4 right-10 w-60
               h-60 md:w-72
-            md:h-72 bg-teal-100 rounded-full  mix-blend-multiply opacity-70  animate-blob  blur-3xl"
+            md:h-72 bg-teal-100 rounded-full  mix-blend-multiply opacity-70  md:animate-blob  blur-3xl"
             ></div>
 
             <div
@@ -214,15 +214,15 @@ export default function Home() {
             <div
               className="z-0 absolute w-60
               h-60  -bottom-52 right-10 lg:right-52 md:w-72
-            md:h-72 bg-rose-500/0  rounded-full  mix-blend-multiply  opacity-70   animate-blob blur-3xl"
+            md:h-72 bg-rose-500/0  rounded-full  mix-blend-multiply  opacity-70   md:animate-blob blur-3xl"
             ></div>
             <div
               className="z-0  absolute -bottom-20 right-60 w-72
-            h-72 bg-blue-500/0 rounded-full mix-blend-multiply opacity-70  bg-teal-200 animation-delay-2000 animate-blob blur-3xl"
+            h-72 bg-blue-500/0 rounded-full mix-blend-multiply opacity-70  bg-teal-200 animation-delay-2000 md:animate-blob blur-3xl"
             ></div>
             <div
               className="z-0 absolute bottom-10 -left-80 md:left-20 w-72
-            h-72 bg-teal-100 rounded-full  mix-blend-multiply  opacity-70   animation-delay-4000  lg:left-52 animate-blob blur-3xl"
+            h-72 bg-teal-100 rounded-full  mix-blend-multiply  opacity-70   animation-delay-4000  lg:left-52 md:animate-blob blur-3xl"
             ></div>
           </div>
 
