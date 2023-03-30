@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* customising scrollbar styling */
+/* customising scrollbar styling  */
 ::-webkit-scrollbar {
   width: 0.45em;
 }
@@ -23,8 +23,6 @@
   background: #177066;
 }
 
-
-
 @layer utilities {
   .animation-delay-2000 {
     animation-delay: 2s;
@@ -33,4 +31,3 @@
     animation-delay: 4s;
   }
 }
-
